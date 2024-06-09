@@ -1,0 +1,135 @@
+* {
+    margin: 0
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgb(22, 22, 80);
+    padding-right: 15px;
+    padding-left: 25px;
+    justify-content: space-between;
+    height: 85px;
+
+}
+
+.logo_mac {
+    padding-top: 15px;
+}
+
+.carrito img {
+
+    padding-top: 20px;
+    padding-right: 30px;
+    filter: invert(100%);
+    width: 50px;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(80, 92, 151);
+}
+
+.card {
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.931);
+    width: 180px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+    background: #333180;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .img-card {
+
+    height: 120px;
+    background-image: url("../img/imagen1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.card input {
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 10px
+}
+
+
+
+.card button {
+    background: #e2a30b;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.total-section {
+    color: white;
+    text-align: start;
+    background-color: #165980;
+    width: 350px;
+    height: 15px;
+    margin: 15px;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.total-section .color {
+    display: flex;
+}
+
+.total-section .color div {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 1px;
+}
+
+.div-specs {
+    background-color: #4a416b;
+}
+
+.h1-specs {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.ul-specs {
+    color: rgba(249, 250, 246, 0.807);
+    padding-left: 33px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+}
+
+.footer-class {
+    font-size: 15px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    height: 50px;
+    background-color: rgb(22, 22, 80);
+}
+
